@@ -77,7 +77,7 @@ ZAR = data['rates']['ZAR']
 col1, col2, col3 = st.columns(3)
 col1.metric("BWP", str(BWP) + " P", "1.2%")
 col2.metric("ZMW", str(ZMW) + " K", "-0.2%")
-col3.metric("MZN", str(MZA) + " M", "0.2%")
+col3.metric("MZN", str(MZN) + " M", "0.2%")
 
 #Assumptions
 
