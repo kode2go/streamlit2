@@ -270,7 +270,7 @@ st.plotly_chart(fig)
 
 import pandas_profiling
 from streamlit_pandas_profiling import st_profile_report
-pr = df2.profile_report()
+pr = df.profile_report()
 st_profile_report(pr)
 
 
